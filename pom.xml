@@ -35,6 +35,7 @@
         </plugins>
     </build>
 
+
     <dependencyManagement>
         <dependencies>
             <dependency>
@@ -67,6 +68,10 @@
             </modules>
         </profile>
     </profiles>
+
+    <properties>
+        <build.number>SNAPSHOT</build.number>
+    </properties>
 
 
 </project>
