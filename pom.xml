@@ -70,7 +70,7 @@
     </profiles>
 
     <properties>
-        <build.number>SNAPSHOT</build.number>
+        <build.number>100</build.number>
     </properties>
 
 
