@@ -22,7 +22,8 @@ public class NavigationTab extends Base {
         for (int i = 1; i < navTabLinks.size(); i++) {
             if (i == 1 || i == 14 || i == 15) {
                 navTabLinks.get(i).findElement(By.tagName("a")).click();
-                navigateBack();
+
+
                 sleep(2);
             } else {
 

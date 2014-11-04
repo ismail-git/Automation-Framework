@@ -34,7 +34,17 @@ public class Base {
     //UTILITY Methods
     public void navigateBack(){
         driver.navigate().back();
+
     }
+
+    public void navigateRefresh(){
+        driver.navigate().refresh();
+    }
+
+    public void navigateForward(){
+        driver.navigate().forward();
+    }
+
     public void clickById(String locator){
         driver.findElement(By.id(locator)).click();
     }
